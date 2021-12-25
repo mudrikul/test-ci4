@@ -9,4 +9,8 @@ class Test extends BaseController
 
         return view('satu');
     }
+    public function test()
+    {
+        return view('tes_view');
+    }
 }
