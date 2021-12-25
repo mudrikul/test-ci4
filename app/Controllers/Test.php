@@ -6,6 +6,6 @@ class Test extends BaseController
 {
     public function index()
     {
-        echo 2 + 45;
+        return view('tes_view');
     }
 }
